@@ -127,9 +127,6 @@ BackEnd (Nodejs, Express.js, Socket io, MongoDB(Mongoose.js))
 
 Please feel free to contact me if you have any questions or issues.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
