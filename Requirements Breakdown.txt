@@ -1,0 +1,35 @@
+Developer Test: Requirement Breakdown
+
+The main goal of this project is to create a small app to chat in real-time.
+
+-- Ionic Project : 
+    
+    please review the following, involving chatroom setup and real-time communication funtionality:
+
+        /src
+          |--/app
+              |-- app.module.ts    - socket io & http client import
+          |--/pages
+              |--/chat-room
+                   |-- chat-room.ts  - http request setup, and socket method setup, chat message setup
+                   
+-- Nodejs RESTful backend & ExpressJS Routing Endpoint & Socket.io Setup 
+    
+    please review the following:
+
+        /Server     
+          |--/config          - BackEnd Configuration
+               |--config.js
+          |-- server.js       -- BackEnd Server setup
+
+-- MongoDB (Mongoose.js) DB
+    
+    please review the following:
+        
+        /Server
+          |--/config
+               |-- config.js BackEnd Configuration
+          |-- chat.js Backend Controller
+    
+
+

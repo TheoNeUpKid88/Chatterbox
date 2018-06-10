@@ -1,0 +1,54 @@
+
+├── <PROJECT_ROOT>
+        |__ /.sourcemaps
+        |__ /node_modules
+        └── /resources               - Default Resources (e.g., Icon and Splash)
+        |__ /server
+            |__ /config
+                |__ config.js        - Nodejs(Expressjs & Socket.io) Server & MongoDB Configuration
+            |__ node_modules         - Nodejs (Expressjs & Socket.io) Serer & Mongoosejs Dependencies
+            |__ app.js               - App Engine
+            |__ chat.js              - Nodejs & Controller Server & MongoDB Setup
+            |__ package-lock.json
+            |__ package.json
+            |__ server.js            - Nodejs(Expressjs & Socket.io & Routing) Server & Setup Configuration
+        └── /src
+            └── /app                                  -  App Module
+                ├── app.component.ts
+                ├── app.html
+                ├── app.module.ts
+                ├── app.scss
+                ├── main.ts                          
+             └── /pages                            - Page (Component) Modules
+                 └── /home
+                     ├── home.html         
+                     ├── home.page.module.ts 
+                     ├── home.page.scss   
+                     ├── home.page.spec.ts
+                     ├── home.page.ts
+			   |__ /chat-room
+   				  |__ chat-room.html      
+  				  |__ chat-room.module.ts
+  				  |__ chat-room.scss
+				  |__ chat-room.ts                                                                                                               
+                └── /assets                    
+                └── /theme                
+                    ├── variables.scss
+            ├── index.html
+            ├── manifest.json
+            ├── service-worker.js
+        └── /www                                      - Ionics 'dist' directory
+            └── /assets
+            └── /build   
+            ├── index.html
+            ├── manifest.json
+            ├── service-worker.js
+        ├── .editorconfig
+        ├── .gitignore
+        ├── config.xml
+        ├── ionic.config.json
+        ├── package-lock.json         
+        ├── package.json
+        ├── README.md     
+        ├── tsconfig.json
+        ├── tslint.json                    

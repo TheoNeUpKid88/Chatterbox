@@ -1,46 +1,132 @@
-** Stupid**
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+# Ionic Project: Chatterbox 
+The following would consist of the 
+Ionic Project ( Chatterbox ~ A Real-time Chat Application ) for [Great Health Works](https://www.greathealthworks.com/)
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+## Getting Started
 
----
+These instructions will instruct how to get the project setup, installed and running on your local machine for development and testing purposes. Enjoy!
 
-## Edit a file
+### Project dependencies
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+The following would consist of project dependencies to properly run the application.
+```
+   - Node.js( npm (i.e., Node Package Manager))
+   - Express.js
+   - MongoDB (mongoosejs)
+   - Socket io
+```
+```
+Used to build a real-time chat application
+```
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+### Installing dependcies
 
----
+To Properly install run:
+```
+   - Install MongoDB & create collection
+   - "npm install <dependcies-name>", listed above
+```
+### Running The Application:
+```
+  Modifiy config file and specify DB collection name
+  /server
+     |-- /config
+           |-- config.js
+```
+NOTE
+```
+  Nodejs must be installed & MongoDB, mongo must be running in order to store message data
+```
 
-## Create a file
+OSX
+```
+  Open Terminal and cd into the project root "/chatterboxV2", administrator rights maybe required
+  - run npm run chatterbox
+```
+Windows
+```
+  Open CMD and cd into the project root "/chatterboxV2", administrator rights maybe required
+  - run npm run chatterbox
+```
+### Usage
+    The following would involve application usage.
+```
+    - Enter user name
+    - Type into chat input field and press enter or click send
+```
+### Demo
+The following is a demo of the application running ... 
 
-Next, you’ll add a new file to this repository.
+![ChatterBox](https://drive.google.com/file/d/1onjg7MZITSEGw30RrYesZJg5whpUajae/view?usp=sharing)
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+## Testing
+The following would relate to testing, application operation(s) tests methods, and processes
+Test case 1
+```
+ - Running application Dual server states (node.js, express via single port: 3000)
+```
+Test case 2
+```
+ - User name input operation, and navParm (user name, to next page)
+```
+Test case 3
+```
+ - User chat input field operation (retrieve  navaParam), and update page with rxjs observable with user data
+```
+Test case 4
+```
+ - Socket.io real-time communication setup
+ - Browser 1 & Browser2 (incognito) : review communication
+```
+Test case 5
+```
+ - Nodejs (Express.js)
+ - Server Routering - Endpoint setup and testing
+```
+Test case 6
+```
+ - Nodejs (Mongoose.js)
+ - Server Routering (DB)- Endpoint setup and testing & Collection insertion, retrieval operation
+```
+Edge Case:
+```
+I found testing the application straight forward while, I did running into a set of cases which affected the applications behavior, which would consist of the following:
+    - route: /api/a/recentMessages & /api/a/ALLMessages
+      * Functionality: Retrive most recently added record to databse & Retrieve ALL records within database collection
+        - Assynchronous DB connection would result in 'undefined' error due to closing DB connection, which resulted in a failure to create an REST API query yet, would work the second attempt.
+          ~ SOLUTION:
+            Removing DB Closing function or implementing MongoDB Aggregate function - Futher inspection and review required..
+```
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+## Deployment
 
----
+Platform Dependent: General
+```
+Zip project and deploy to server, issue npm run chatterbox command 
+```
+## Built With
+Front-End (ionic, Angular.js 2x, HTML)
+* [Ionic 3](https://ionicframework.com/) - The web framework used
 
-## Clone a repository
+BackEnd (Nodejs, Express.js, Socket io, MongoDB(Mongoose.js))
+* [Node.js](https://nodejs.org/api/) - BackEnd & Server Management
+* [Express.js 4x](https://expressjs.com/en/4x/api.html) - BackEnd Server & Route Management
+* [Socket.io](https://socket.io/docs/) - BackEnd Real-time Communication
+* [MongoDB ~ Mongoosejs](https://docs.mongodb.com/manual/) - Used Create DB, Collection, Store Msg Data
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
+## Authors
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
+**Ramon J. Yniguez** - *Initial work* - [GitHub](https://github.com/theoneupkid88) - [Linkedin](https://www.linkedin.com/in/dryniguez) - [Century Premiere](https://centurypremiere.wixsite.com/home)
 
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+
+Please feel free to contact me if you have any questions or issues.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to Great Health Works for success an amazing the opportunity & my fiance for her patience
+* Inspiration ~ Enjoy Software Developing
