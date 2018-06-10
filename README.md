@@ -58,7 +58,7 @@ Windows
 ### Demo
 The following is a demo of the application running ... 
 
-![ChatterBox](https://drive.google.com/file/d/1onjg7MZITSEGw30RrYesZJg5whpUajae/view?usp=sharing)
+![ChatterBox](demo/img/chat_demp.gif)
 
 ## Testing
 The following would relate to testing, application operation(s) tests methods, and processes
