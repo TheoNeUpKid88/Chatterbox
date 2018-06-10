@@ -111,10 +111,12 @@ Platform Dependent: General
 Zip project and deploy to server, issue npm run chatterbox command 
 ```
 ## Built With
-Front-End (ionic, Angular.js 2x, HTML)
+* Front-End (ionic, Angular.js 2x, HTML)
+
 * [Ionic 3](https://ionicframework.com/) - The web framework used
 
-BackEnd (Nodejs, Express.js, Socket io, MongoDB(Mongoose.js))
+* BackEnd (Nodejs, Express.js, Socket io, MongoDB(Mongoose.js))
+
 * [Node.js](https://nodejs.org/api/) - BackEnd & Server Management
 * [Express.js 4x](https://expressjs.com/en/4x/api.html) - BackEnd Server & Route Management
 * [Socket.io](https://socket.io/docs/) - BackEnd Real-time Communication
@@ -130,5 +132,5 @@ Please feel free to contact me if you have any questions or issues.
 
 ## Acknowledgments
 
-* Hat tip to Great Health Works for success an amazing the opportunity & my fiance for her patience
+* Hat tip to Great Health Works for giving me such amazing the opportunity & my fiancé for her patience
 * Inspiration ~ Enjoy Software Developing
