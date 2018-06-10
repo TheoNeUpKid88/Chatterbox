@@ -20,11 +20,16 @@ The following would consist of project dependencies to properly run the applicat
 Used to build a real-time chat application
 ```
 
-### Installing dependcies
+### Installing dependencies
 
 To Properly install run:
 ```
    - Install MongoDB & create collection
+   - Download project
+      ~ 1.) cd into project 
+      ~ 2.) npm install
+      ~ 3.) cd server
+      ~ 4.) npm install
    - "npm install <dependcies-name>", listed above
 ```
 ### Running The Application:
