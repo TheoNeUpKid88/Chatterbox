@@ -132,5 +132,5 @@ Please feel free to contact me if you have any questions or issues.
 
 ## Acknowledgments
 
-* Hat tip to Great Health Works for giving me such amazing the opportunity & my fiancé for her patience
+* Hat tip to Great Health Works for giving me such an amazing opportunity & my fiancé for her patience
 * Inspiration ~ Enjoy Software Developing
