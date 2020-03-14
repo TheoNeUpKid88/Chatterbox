@@ -11,13 +11,16 @@ These instructions will instruct how to get the project setup, installed and run
 
 The following would consist of project dependencies to properly run the application.
 ```
-   - Node.js( npm (i.e., Node Package Manager))
+   - Angular 4 >= 8
+   - Typescript 3.5
+   - Ionic Cross-Platform Framework
+   - Node.js( npm / yarn (i.e., Node Package Manager))
    - Express.js
    - MongoDB (mongoosejs)
-   - Socket io
+   - Socketio
 ```
 ```
-Used to build a real-time chat application
+Used to build a real-time cross-platform chat application
 ```
 
 ### Installing dependencies
