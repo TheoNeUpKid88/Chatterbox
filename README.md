@@ -127,7 +127,7 @@ Zip project and deploy to server, issue npm run chatterbox command
 
 ## Authors
 
-**Ramon J. Yniguez** - *Initial work* - [GitHub](https://github.com/theoneupkid88) - [Linkedin](https://www.linkedin.com/in/dryniguez) - [Century Premiere](https://centurypremiere.wixsite.com/home)
+**Ramon J. Yniguez** - *Initial work* - [GitHub](https://github.com/theoneupkid88) - [Linkedin](https://www.linkedin.com/in/dryniguez) - [Freelance CRM](https://thefreelancecrm.com)
 
 
 Please feel free to contact me if you have any questions or issues.
