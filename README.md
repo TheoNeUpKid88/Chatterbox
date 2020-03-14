@@ -1,4 +1,4 @@
-# Ionic Project: Chatterbox 
+# Ionic Cross-Platform: Chatterbox 
 The following would consist of the 
 Ionic Project ( Chatterbox ~ A Real-time Chat Application ) for [Great Health Works](https://www.greathealthworks.com/)
 
