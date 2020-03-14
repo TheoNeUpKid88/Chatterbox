@@ -87,7 +87,7 @@ Test case 4
 Test case 5
 ```
  - Nodejs (Express.js)
- - Server Routering - Endpoint setup and testing
+ - Server Routes - Endpoint setup and testing
 ```
 Test case 6
 ```
